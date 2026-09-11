@@ -23,6 +23,6 @@ optB = A(2:3, 1:2)
 optC = A([1 3], [1 3])
 
 Vmod = [V NaN NaN];
-Vmod = reshape(Vmod, 3, 3)';
+Vmod = reshape(Vmod, 3, 3);
 
-concAV = [A; Vmod]
+AVc
